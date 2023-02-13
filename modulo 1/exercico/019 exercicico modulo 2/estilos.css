@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* -quando for fazer uma 
+ponte entre html e css, usa 'id' no html e # no css
+ - quanddo  usa 'class' no html, no css usa '.'*/
+
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: blue;
+}
+h1#principal {
+    text-align: center;
+    color: black;
+    background-color: blueviolet;
+}
+h2 {
+    color: rgb(42, 116, 27);
+}
+p {
+    color: crimson;
+}
+.basico {
+    color: chartreuse;
+}
+.intermediario {
+    color: green;
+}
+.avançado {
+    color: fuchsia;
+    font-weight: normal;
+    font-style: arial;
+}
+.destaque {
+    background-color: #c20909ce;
+}

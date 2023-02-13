@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Midia foto em html 5</h1>
+    <p>tente abrir esse site em varios
+         dispositivos diferentes ou simplismente 
+         aumenta ou diminua o tamanho no navegador</p>
+
+         <picture>
+            <source media="(max-width: 750px))" srcset="file:///C:/Users/user10/OneDrive/Documentos/CURSO%20DE%20INFORMATICA%202023/html%205+%20css%202020/modulo%201/exercico/011/imagens/p.png"type="image/png">
+            <source media="(max-width: 1000px)" srcset="file:///C:/Users/user10/OneDrive/Documentos/CURSO%20DE%20INFORMATICA%202023/html%205+%20css%202020/modulo%201/exercico/011/imagens/m.png"type="image/png">          png">
+            <img src="imagens/g.png" alt="Imagem flexivel">
+
+
+         </picture>
+         <h1>Reproduzindo Audios</h1>
+         <p>Como raproduzir audios</p>
+         <audio src="midia/tis-so-sweet-to-trust-in-jesus-14080.mp3" controls autoplay></audio>
+         <audio preload="metadata" autoplay controls >
+            
+             <source src="midia/tis-so-sweet-to-trust-in-jesus-14080.mp3" type="audio/mpeg">
+             <source src="midia/tis-so-sweet-to-trust-in-jesus-14080.ogg" type="audio/ogg">
+             <source src="midia/tis-so-sweet-to-trust-in-jesus-14080.wav" type="audio/wav">
+             <p>Infelismente seu navegador não pode carregar esse audio, por favor clique em <a href="midia/tis-so-sweet-to-trust-in-jesus-14080.mp3">Dowload</a> para baixar</p>
+        </audio>
+
+        
+
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+@charset "utf-8"
+
+body 
+ <style>
+        @font-face {
+            font-family: 'monster';
+            src: url(Melted\ Monster.ttf);
+            font-weight: normal;
+            font-style: normal;
+        }
+        h1 {
+            font-family: 'monster', 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+    </style>
+
+{
+    background-color: aliceblue;
+    }
+    h1#tp {
+        background-color: #0da75ad7;
+        height: 5px;
+        width: 820px;
+        border: 50px;
+        padding: 67px;
+        margin: auto;
+        
+
+    }
+    h3#tp {
+        background-color: #0da75ad7;
+        height: 5px;
+        width: 820px;
+        border: 50px;
+        padding: 67px;
+        margin: auto;
+    }
+    p#tp {
+        background-color: #0da75ad7;
+        height: 5px;
+        width: 820px;
+        border: 50px;
+        padding: 67px;
+        margin: auto;
+    }

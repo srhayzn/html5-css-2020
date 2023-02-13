@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tag</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blue;
+        }
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: aqua;
+            padding: 3px;
+            margin: 10px;
+           
+        }
+        nav > a {
+            text-decoration: none;
+            color: bisque;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            border-radius:  10px 10px 10px 10px;
+            box-shadow: 10px;
+
+        }
+        article {
+
+            background-color: aliceblue;
+
+        }
+        article > aside {
+            background-color: rgb(11, 226, 118);
+        }
+        footer {
+            background-color: darkgreen;
+            color: coral;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50%;
+
+        }
+
+        h3 {
+            border: 12px solid transparent;
+            padding: 10px;
+            border-image: url('download') repeat;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav></nav>
+        <h1> menu site</h1>
+        <a href=""> link</a>
+        <a href=""> link</a>
+        <a href=""> link</a>
+        <a href=""> link</a>
+    </nav>
+
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+            <section id="noticias">
+                <article>
+                    <h2>noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ad eius ea vel ipsam similique facilis. Adipisci molestiae tenetur doloremque earum soluta placeat quam laudantium accusamus reprehenderit maiores. Corrupti, quia.</p>
+                    <aside>
+                        <p>Artigo escrito por emerson22233232</p>
+
+
+                    </aside>
+
+                </article>
+                <h3> Borda personalizada</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+            </section>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Artigo escrito por emerson</p>
+
+    </footer>
+    <div id="bola"></div>
+
+    
+</body>
+</html>
