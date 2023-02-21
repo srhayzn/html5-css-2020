@@ -52,20 +52,32 @@ section {
     font-family: var(--fonte2);
     font-size: 3.5vw;
 }
+section > p {
+    padding-bottom: 1em;
+}
 section.normal {
     background-color: white;
     color: black;
 }
 
 section.imagem {
-    background-color: black;
+    background-color: rgba(19, 18, 18, 0.411);
     color: white;
+    box-shadow: inset 6px 6px 13 px 0px black;
+    background-attachment: fixed;
 }
 section.imagem > p {
    display: inline-block;
     background-color: black;
-
-
+}
+section#img01 {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position:right center;
 }
 header a:hover,footer a:hover {
     text-decoration: underline;
