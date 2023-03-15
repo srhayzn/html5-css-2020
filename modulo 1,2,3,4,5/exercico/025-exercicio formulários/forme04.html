@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forme 004</title>
+</head>
+<body>
+    <h1>exemplo de formulário 04</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="cadastrophp.html" method="get"></form>
+        <p>
+            <label for="iemail">e-mail</label>
+            <input type="email" name="email" id="imail" autocomplete="email" required>
+        </p>
+        <p>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern= "^\(\d{2}\)d{4,5}-\d{4}$" required>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="Limpar" required autocomplete="tel">
+        </p>
+    </fieldset>
+</body>
+</html>
