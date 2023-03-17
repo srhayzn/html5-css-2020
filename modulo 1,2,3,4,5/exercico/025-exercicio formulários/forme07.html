@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forme07</title>
+   
+</head>
+<body>
+    <h1>exemplo de formulário</h1>
+    <form action="cadastrophp.html" method="post" autocomplete="on"></form>
+    <p>
+        <label for="iest">Estados</label>
+        <select name="estado"  id="iest">
+            <option value="" selected>---Escolha---</option>
+            <optgroup label="região sudeste">
+                <option value="sp">são paulo</option>
+                <option value="Rj">rio de Janeiro</option>
+                <option value="sc">santa catarina</option>
+                <option value="mg">minas gerais</option>
+            </optgroup>
+
+
+            <optgroup label="região nordeste">
+                <option value="Ba">Bahia</option>
+                <option value="RN">rio grande do norte</option>
+                <option value="Pb">Paraíba</option>
+                <option value="ma">maranlhão</option>
+            </optgroup>
+        </select>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="adm">Administrador</option>
+                <option>contador</option>
+                <option value="enc">encanador</option>
+                <option value="desv">Desenvolvedor</option>
+                </datalist>
+            
+        </p>
+        <p>
+            <label for="imsg">mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="sua mensagem aqui"></textarea>
+        </p>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    
+</body>
+</html>
