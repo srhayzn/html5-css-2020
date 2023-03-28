@@ -10,7 +10,8 @@ desktop=992px ate 1200px
 *******************************
 grandes telas acima de 1200px=*/
 
-@media print /*impressao*/{
+@media print /*impressao*/
+{
     body {
         background-image: url(../back-print.jpg);
         font-family: 'Courier New', Courier, monospace;
@@ -51,7 +52,8 @@ grandes telas acima de 1200px=*/
     
     
 }
-@media screen (min-width: 1200px) /*Telas grandes*/ {
+@media screen (min-width: 1200px) /*Telas grandes*/ 
+{
     body {
         background-image: url(../back-tv.jpg);
     
