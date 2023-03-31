@@ -17,7 +17,20 @@ header > h1 {
     text-align: center;
 }
 menu {
-    display: block;
+    display: none;
+    }
+    i#burger {
+        background-color: rgb(133, 13, 13);
+        color: aliceblue;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    i#burger:hover {
+        background-color: white;
+        color: black;
+
     }
     menu > ul {
         list-style-type: none;
